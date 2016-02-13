@@ -1,0 +1,6 @@
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\bin\AngularJSAuthentication.WEB.dll.config
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\bin\AngularJSAuthentication.WEB.dll
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\bin\AngularJSAuthentication.WEB.pdb
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\obj\Debug\AngularJSAuthentication.WEB.csprojResolveAssemblyReference.cache
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\obj\Debug\AngularJSAuthentication.WEB.dll
+C:\Users\welcome\documents\visual studio 2013\Projects\AngularJSAuthentication\AngularJSAuthentication.WEB\obj\Debug\AngularJSAuthentication.WEB.pdb

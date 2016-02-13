@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        table tr td{
+            padding:10px;
+            border:1px solid #808080;
+        }
+    </style>
+</head>
+<body ng-controller="mainCrl">
+    <table style="">
+        <tr>
+            <td >
+                <span ng-hide="!authentication.isAuth">
+                    Welcome {{authentication.userName}}
+                </span>
+            </td>
+            <td>
+                <span ng-hide="!authentication.isAuth">
+                    <a ui-sref="order">My Order</a>
+                </span>
+            </td>
+            <td>
+                <span ng-hide="!authentication.isAuth" ng-click="logOut()" style="cursor:pointer">
+                    Logout 
+                </span>
+            </td>
+            <td>
+                <span ng-hide="authentication.isAuth" style="cursor:pointer">
+                    <a ui-sref="login">login</a>
+                </span>
+            </td>
+            <td>
+                <span ng-hide="authentication.isAuth" style="cursor:pointer">
+                    <a ui-sref="signup">signup</a>
+                </span>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="5">
+                <ui-view></ui-view>
+            </td>
+        </tr>
+    </table>
+</body>
+<script data-main="scripts/main.js" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.22/require.js"></script>
+</html>
